@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "albums",
+  "info": {
+    "singularName": "album",
+    "pluralName": "albums",
+    "displayName": "Album",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AlbumTitle": {
+      "type": "string",
+      "required": true
+    },
+    "EventDate": {
+      "type": "date",
+      "required": true
+    },
+    "Photos": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "EventDescription": {
+      "type": "text"
+    },
+    "Seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "seo.seo"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "AlbumTitle"
+    },
+    "AlbumCover": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "albums"
+    }
+  }
+}
