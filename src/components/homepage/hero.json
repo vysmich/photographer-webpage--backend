@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_homepage_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "chess-queen"
+  },
+  "options": {},
+  "attributes": {
+    "HeroHeading": {
+      "type": "string"
+    },
+    "HeroImage": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

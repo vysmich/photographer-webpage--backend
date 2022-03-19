@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_homepage_subpage_trailers",
+  "info": {
+    "displayName": "SubpageTrailer",
+    "icon": "camera"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "text"
+    },
+    "Images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

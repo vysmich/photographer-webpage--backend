@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_homepage_claim_with_images",
+  "info": {
+    "displayName": "ClaimWithImages",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "ClaimOne": {
+      "type": "string"
+    },
+    "ClaimTwo": {
+      "type": "string"
+    },
+    "ClaimThree": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
