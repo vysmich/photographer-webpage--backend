@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "footers",
+  "collectionName": "layouts",
   "info": {
-    "singularName": "footer",
-    "pluralName": "footers",
-    "displayName": "Footer",
+    "singularName": "layout",
+    "pluralName": "layouts",
+    "displayName": "Layout",
     "description": ""
   },
   "options": {
@@ -16,32 +16,32 @@
     }
   },
   "attributes": {
-    "Footer_text": {
-      "type": "string",
+    "footerText": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "type": "string"
     },
-    "Footer_nav": {
-      "displayName": "Footer_nav",
+    "instaText": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "Nav": {
+      "displayName": "Nav",
       "type": "component",
       "repeatable": false,
-      "component": "footer.footer-nav",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
-    },
-    "Insta_text": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      },
+      "component": "nav.nav"
     }
   }
 }

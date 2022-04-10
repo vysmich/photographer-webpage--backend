@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- *  footer controller
+ *  contact controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::footer.footer');
+module.exports = createCoreController('api::contact.contact');

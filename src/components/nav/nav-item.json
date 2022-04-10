@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_nav_nav_items",
+  "info": {
+    "displayName": "NavItem",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

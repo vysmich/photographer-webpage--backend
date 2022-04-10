@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_nav_navs",
+  "info": {
+    "displayName": "Nav",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "navItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nav.nav-item"
+    }
+  }
+}
