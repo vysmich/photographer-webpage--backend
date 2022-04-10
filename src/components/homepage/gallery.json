@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_homepage_galleries",
+  "info": {
+    "displayName": "gallery",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
