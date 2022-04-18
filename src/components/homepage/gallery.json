@@ -2,16 +2,24 @@
   "collectionName": "components_homepage_galleries",
   "info": {
     "displayName": "gallery",
-    "icon": "address-book"
+    "icon": "address-book",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "CategoryName": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
     }
   }
 }

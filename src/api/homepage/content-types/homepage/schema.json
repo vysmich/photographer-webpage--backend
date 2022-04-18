@@ -27,7 +27,7 @@
       },
       "component": "homepage.hero"
     },
-    "SubpageTrailer_About": {
+    "AboutBanner": {
       "displayName": "SubpageTrailer",
       "type": "component",
       "repeatable": false,
@@ -38,17 +38,7 @@
       },
       "component": "homepage.subpage-trailer"
     },
-    "SubpageTrailer_Gallery": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "homepage.subpage-trailer"
-    },
-    "ClaimsWithImages": {
+    "MainCategoriesBanner": {
       "displayName": "ClaimWithImages",
       "type": "component",
       "repeatable": false,
