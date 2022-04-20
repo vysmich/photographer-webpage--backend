@@ -10,9 +10,6 @@
     "Title": {
       "type": "string"
     },
-    "Content": {
-      "type": "text"
-    },
     "subTitle": {
       "type": "string"
     },
@@ -26,6 +23,9 @@
       "type": "component",
       "repeatable": true,
       "component": "homepage.gallery"
+    },
+    "Content": {
+      "type": "richtext"
     }
   }
 }
