@@ -10,10 +10,11 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-graphql": "^4.1.6",
-    "@strapi/plugin-i18n": "4.1.6",
-    "@strapi/plugin-users-permissions": "4.1.6",
-    "@strapi/strapi": "4.1.6",
+    "@graphql-tools/utils": "^8.6.10",
+    "@strapi/plugin-graphql": "^4.1.8",
+    "@strapi/plugin-i18n": "4.1.8",
+    "@strapi/plugin-users-permissions": "4.1.8",
+    "@strapi/strapi": "4.1.8",
     "sqlite3": "5.0.2"
   },
   "author": {
