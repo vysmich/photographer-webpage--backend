@@ -16,8 +16,6 @@
     "@strapi/plugin-users-permissions": "4.1.10",
     "@strapi/strapi": "4.1.10",
     "heroku": "^7.60.2",
-    "pg": "^8.7.3",
-    "pg-connection-string": "^2.5.0",
     "sqlite3": "5.0.2",
     "strapi-plugin-ezforms": "^0.0.7",
     "strapi-plugin-slugify": "^2.2.2"
