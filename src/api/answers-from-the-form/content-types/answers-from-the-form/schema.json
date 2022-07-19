@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "answers_from_the_forms",
+  "info": {
+    "singularName": "answers-from-the-form",
+    "pluralName": "answers-from-the-forms",
+    "displayName": "Answers from the form"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "Mail": {
+      "type": "string"
+    },
+    "Message": {
+      "type": "richtext"
+    }
+  }
+}

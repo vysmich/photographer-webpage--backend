@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_contact_address_fields",
+  "info": {
+    "displayName": "AddressField",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "Lable": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "string"
+    }
+  }
+}

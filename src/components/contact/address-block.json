@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_contact_address_blocks",
+  "info": {
+    "displayName": "AddressBlock",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "AddressField": {
+      "displayName": "AddressField",
+      "type": "component",
+      "repeatable": true,
+      "component": "contact.address-field"
+    },
+    "Content": {
+      "type": "string"
+    }
+  }
+}

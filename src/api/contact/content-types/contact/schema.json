@@ -4,15 +4,49 @@
   "info": {
     "singularName": "contact",
     "pluralName": "contacts",
-    "displayName": "Contact"
+    "displayName": "Contact",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
-    "Title": {
-      "type": "string"
+    "ContactHero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.hero",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "AddressBlock": {
+      "displayName": "AddressBlock",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.address-block",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "ContactForm": {
+      "displayName": "ContactForm",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.contact-form",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

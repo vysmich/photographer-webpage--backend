@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contact_contact_forms",
+  "info": {
+    "displayName": "ContactForm",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "FormField": {
+      "displayName": "FormField",
+      "type": "component",
+      "repeatable": true,
+      "component": "contact.form-field"
+    },
+    "SubmitButton": {
+      "type": "string"
+    }
+  }
+}
