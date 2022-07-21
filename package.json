@@ -16,6 +16,8 @@
     "@strapi/plugin-users-permissions": "4.2.0",
     "@strapi/strapi": "4.2.0",
     "heroku": "^7.60.2",
+    "pg": "^8.7.3",
+    "pg-connection-string": "^2.5.0",
     "sqlite3": "5.0.2",
     "strapi-plugin-ezforms": "^0.0.7",
     "strapi-plugin-slugify": "^2.2.2"
@@ -27,7 +29,7 @@
     "uuid": "225f0f26-198a-4f33-9934-7e5a92ee9f6e"
   },
   "engines": {
-    "node": ">=12.x.x <=16.x.x",
+    "node": "16.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
