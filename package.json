@@ -8,7 +8,8 @@
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "heroku-cleanup": "patch-package"
   },
   "dependencies": {
     "@graphql-tools/utils": "^8.6.10",
