@@ -1,0 +1,13 @@
+diff --git a/node_modules/@strapi-community/strapi-provider-upload-google-cloud-storage/lib/provider.js b/node_modules/@strapi-community/strapi-provider-upload-google-cloud-storage/lib/provider.js
+index 887d4ea..f1c6c80 100644
+--- a/node_modules/@strapi-community/strapi-provider-upload-google-cloud-storage/lib/provider.js
++++ b/node_modules/@strapi-community/strapi-provider-upload-google-cloud-storage/lib/provider.js
+@@ -233,7 +233,7 @@ const init = (providerConfig) => {
+         }
+ 
+         const streamFileUpload = async function () {
+-          file.stream.pipe(bucketFile.createWriteStream()).on('finish', () => {
++          file.stream.pipe(bucketFile.createWriteStream(fileAttributes)).on('finish', () => {
+             // The file upload is complete
+             console.debug(`File successfully uploaded to ${file.url}`);
+           });
