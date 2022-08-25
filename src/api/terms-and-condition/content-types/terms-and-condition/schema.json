@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "services",
+  "collectionName": "terms_and_conditions",
   "info": {
-    "singularName": "service",
-    "pluralName": "services",
-    "displayName": "Prices",
-    "description": ""
+    "singularName": "terms-and-condition",
+    "pluralName": "terms-and-conditions",
+    "displayName": "Terms&Conditions"
   },
   "options": {
     "draftAndPublish": true
@@ -16,7 +15,7 @@
     }
   },
   "attributes": {
-    "PricesHero": {
+    "TermsHero": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -26,23 +25,13 @@
       },
       "component": "homepage.hero"
     },
-    "PricesPerex": {
+    "Body": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
       "type": "richtext"
-    },
-    "PricesSeo": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "seo.seo"
     }
   }
 }

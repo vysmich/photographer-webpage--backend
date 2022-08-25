@@ -7,20 +7,25 @@
   },
   "options": {},
   "attributes": {
-    "ClaimOne": {
-      "type": "string"
-    },
-    "ClaimTwo": {
-      "type": "string"
-    },
-    "ClaimThree": {
-      "type": "string"
-    },
     "Gallery": {
       "displayName": "gallery",
       "type": "component",
       "repeatable": true,
       "component": "homepage.gallery"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "PortfolioButton": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": false,
+      "component": "nav.button"
+    },
+    "ContactButton": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nav.button"
     }
   }
 }

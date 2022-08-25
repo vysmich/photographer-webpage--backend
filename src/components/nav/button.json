@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_nav_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "arrow-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "btnText": {
+      "type": "string"
+    },
+    "btnLink": {
+      "type": "string"
+    }
+  }
+}
