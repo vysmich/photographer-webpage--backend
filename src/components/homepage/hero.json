@@ -2,7 +2,8 @@
   "collectionName": "components_homepage_heroes",
   "info": {
     "displayName": "Hero",
-    "icon": "chess-queen"
+    "icon": "chess-queen",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,9 +11,17 @@
       "type": "string"
     },
     "HeroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "videos"
+      ]
+    },
+    "HeroImageMobile": {
+      "allowedTypes": [
+        "images"
       ],
       "type": "media",
       "multiple": false
