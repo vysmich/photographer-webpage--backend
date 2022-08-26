@@ -24,7 +24,7 @@
     },
     "ContactButton": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "nav.button"
     }
   }

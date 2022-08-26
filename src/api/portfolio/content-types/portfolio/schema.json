@@ -18,7 +18,7 @@
   "attributes": {
     "Portfolio_hero": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "homepage.hero",
       "pluginOptions": {
         "i18n": {
