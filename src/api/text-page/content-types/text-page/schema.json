@@ -1,10 +1,10 @@
 {
-  "kind": "singleType",
-  "collectionName": "layouts",
+  "kind": "collectionType",
+  "collectionName": "text_pages",
   "info": {
-    "singularName": "layout",
-    "pluralName": "layouts",
-    "displayName": "Layout",
+    "singularName": "text-page",
+    "pluralName": "text-pages",
+    "displayName": "Text-page",
     "description": ""
   },
   "options": {
@@ -16,42 +16,40 @@
     }
   },
   "attributes": {
-    "footerText": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
-    "instaText": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
-    "Nav": {
-      "displayName": "Nav",
+    "PageHero": {
       "type": "component",
       "repeatable": false,
+      "component": "homepage.hero",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "component": "nav.nav"
+      }
     },
-    "TextPageNav": {
-      "type": "component",
-      "repeatable": false,
+    "Title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Body": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Slug": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "component": "nav.nav"
+      "type": "uid",
+      "targetField": "Title"
     }
   }
 }
