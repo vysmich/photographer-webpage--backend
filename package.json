@@ -15,7 +15,7 @@
     "@graphql-tools/utils": "8.6.7"
   },
   "dependencies": {
-    "@graphql-tools/utils": "^8.6.10",
+    "@graphql-tools/utils": "^8.6.7",
     "@strapi-community/strapi-provider-upload-google-cloud-storage": "^4.2.3",
     "@strapi/plugin-graphql": "^4.2.0",
     "@strapi/plugin-i18n": "4.2.0",
