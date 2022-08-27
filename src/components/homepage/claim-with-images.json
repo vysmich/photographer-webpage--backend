@@ -22,10 +22,8 @@
       "repeatable": false,
       "component": "nav.button"
     },
-    "ContactButton": {
-      "type": "component",
-      "repeatable": false,
-      "component": "nav.button"
+    "Content": {
+      "type": "richtext"
     }
   }
 }
