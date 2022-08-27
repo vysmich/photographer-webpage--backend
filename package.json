@@ -11,6 +11,9 @@
     "postinstall": "patch-package",
     "heroku-cleanup": "patch-package"
   },
+  "resolutions": {
+    "@graphql-tools/utils": "8.6.7"
+  },
   "dependencies": {
     "@graphql-tools/utils": "^8.6.10",
     "@strapi-community/strapi-provider-upload-google-cloud-storage": "^4.2.3",
