@@ -4,7 +4,8 @@
   "info": {
     "singularName": "answers-from-the-form",
     "pluralName": "answers-from-the-forms",
-    "displayName": "Answers from the form"
+    "displayName": "Answers from the form",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,6 +23,9 @@
     },
     "Message": {
       "type": "richtext"
+    },
+    "Order": {
+      "type": "string"
     }
   }
 }
