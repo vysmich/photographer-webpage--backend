@@ -49,6 +49,15 @@
         }
       },
       "type": "richtext"
+    },
+    "Order": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "integer",
+      "required": true
     }
   }
 }
