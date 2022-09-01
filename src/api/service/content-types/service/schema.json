@@ -36,7 +36,7 @@
     },
     "PricesSeo": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
