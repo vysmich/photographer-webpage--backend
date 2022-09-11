@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_price_list_prices",
+  "info": {
+    "displayName": "Price",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Price": {
+      "type": "string"
+    },
+    "Btn": {
+      "type": "string"
+    }
+  }
+}

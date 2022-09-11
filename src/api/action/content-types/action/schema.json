@@ -4,7 +4,8 @@
   "info": {
     "singularName": "action",
     "pluralName": "actions",
-    "displayName": "Action"
+    "displayName": "Action",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -41,20 +42,13 @@
       },
       "type": "string"
     },
-    "Price": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
     "Gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": true,
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -69,6 +63,17 @@
       },
       "type": "uid",
       "required": true
+    },
+    "Price": {
+      "displayName": "Price",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "price-list.price"
     }
   }
 }
