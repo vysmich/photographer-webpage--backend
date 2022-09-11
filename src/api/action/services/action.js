@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * akce service.
+ * action service.
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::akce.akce');
+module.exports = createCoreService('api::action.action');

@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- *  akce controller
+ *  action controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::akce.akce');
+module.exports = createCoreController('api::action.action');

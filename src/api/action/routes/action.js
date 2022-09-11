@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * akce router.
+ * action router.
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::akce.akce');
+module.exports = createCoreRouter('api::action.action');

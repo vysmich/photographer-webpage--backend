@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "akces",
+  "collectionName": "actions",
   "info": {
-    "singularName": "akce",
-    "pluralName": "akces",
-    "displayName": "Akce",
-    "description": ""
+    "singularName": "action",
+    "pluralName": "actions",
+    "displayName": "Action"
   },
   "options": {
     "draftAndPublish": true
@@ -34,23 +33,28 @@
       },
       "type": "richtext"
     },
-    "CTA": {
-      "type": "component",
-      "repeatable": false,
+    "CtaBtn": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "component": "nav.nav-item"
+      "type": "string"
+    },
+    "Price": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     },
     "Gallery": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
       "allowedTypes": [
         "images"
       ],
+      "type": "media",
+      "multiple": true,
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -63,7 +67,8 @@
           "localized": true
         }
       },
-      "type": "uid"
+      "type": "uid",
+      "required": true
     }
   }
 }
