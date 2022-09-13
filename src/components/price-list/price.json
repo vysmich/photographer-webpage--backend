@@ -2,7 +2,8 @@
   "collectionName": "components_price_list_prices",
   "info": {
     "displayName": "Price",
-    "icon": "angle-double-right"
+    "icon": "angle-double-right",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -16,6 +17,9 @@
       "type": "string"
     },
     "Btn": {
+      "type": "string"
+    },
+    "orderText": {
       "type": "string"
     }
   }
