@@ -7,9 +7,7 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi",
-    "postinstall": "patch-package",
-    "heroku-cleanup": "patch-package"
+    "strapi": "strapi"
   },
   "resolutions": {
     "@graphql-tools/utils": "8.6.7"
