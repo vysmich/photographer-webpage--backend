@@ -7,9 +7,7 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi",
-    "postinstall": "patch-package",
-    "heroku-cleanup": "patch-package"
+    "strapi": "strapi"
   },
   "resolutions": {
     "@graphql-tools/utils": "8.6.7"
@@ -21,6 +19,7 @@
     "@strapi/plugin-i18n": "4.2.0",
     "@strapi/plugin-users-permissions": "4.2.0",
     "@strapi/strapi": "4.2.0",
+    "heroku": "^7.63.0",
     "patch-package": "^6.4.7",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
