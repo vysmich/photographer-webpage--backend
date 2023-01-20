@@ -15,17 +15,17 @@
     "@graphql-tools/utils": "8.6.7"
   },
   "dependencies": {
-    "@graphql-tools/utils": "^8.6.7",
-    "@strapi-community/strapi-provider-upload-google-cloud-storage": "^4.2.3",
-    "@strapi/plugin-graphql": "^4.2.0",
+    "@graphql-tools/utils": "8.6.7",
+    "@strapi-community/strapi-provider-upload-google-cloud-storage": "4.2.3",
+    "@strapi/plugin-graphql": "4.2.0",
     "@strapi/plugin-i18n": "4.2.0",
     "@strapi/plugin-users-permissions": "4.2.0",
     "@strapi/strapi": "4.2.0",
     "heroku": "^7.63.0",
-    "patch-package": "^6.4.7",
-    "pg": "^8.7.3",
-    "pg-connection-string": "^2.5.0",
-    "postinstall-postinstall": "^2.1.0",
+    "patch-package": "6.4.7",
+    "pg": "8.7.3",
+    "pg-connection-string": "2.5.0",
+    "postinstall-postinstall": "2.1.0",
     "sqlite3": "5.0.2"
   },
   "author": {
