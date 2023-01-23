@@ -4,7 +4,8 @@
   "info": {
     "singularName": "aboutpage",
     "pluralName": "aboutpages",
-    "displayName": "Aboutpage"
+    "displayName": "Aboutpage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,15 +16,46 @@
     }
   },
   "attributes": {
-    "hero": {
-      "type": "component",
-      "repeatable": false,
+    "title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "component": "homepage.hero"
+      "type": "string"
+    },
+    "body": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
+    },
+    "mainImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "gallery": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
