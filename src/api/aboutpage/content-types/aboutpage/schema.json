@@ -67,6 +67,26 @@
         }
       },
       "component": "seo.seo"
+    },
+    "contactButton": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "nav.button"
+    },
+    "portfolioButton": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "nav.button"
     }
   }
 }
