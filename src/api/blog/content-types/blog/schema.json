@@ -83,7 +83,8 @@
           "localized": true
         }
       },
-      "type": "uid"
+      "type": "uid",
+      "targetField": "title"
     },
     "blogSeo": {
       "type": "component",
